@@ -94,10 +94,15 @@ const TILE_HANDLE=function(id){return `tile_${id}`}
 
 /**
  * Class representing throwable errors.
+ * @property  {Array} tags - Tags this error is supposed to be associated with.
+ * @property {string} name - The error name (class name).
+ * @property {string} message - The error message.
  */
 class Error {
 	/**
-	 * 
+	 * Create an Error object.
+	 * @param  {Array} tags - Tags this error is supposed to be associated with.
+	 * @param {string} message - The error message.
 	 */
 	constructor(tags, message) {
 		this.tags = []
