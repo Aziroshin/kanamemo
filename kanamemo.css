@@ -1,0 +1,31 @@
+body {
+	background-color: #111111;
+}
+.tile {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	background-size: cover;
+	font-size: 30pt;
+	color: rgba(0, 0, 0, 0.7);
+	text-shadow: 3px 3px 3px;
+	align-items: center;
+}
+.tileCharacter {
+	display: inline-block;
+	top: 20%;
+	left: 20%;
+	translate(-50%, -50%);
+	display: inline-block;
+	position: absolute;
+}
+/*.tileCharacter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+.matched_tile {
+	opacity: 0.3;
+}

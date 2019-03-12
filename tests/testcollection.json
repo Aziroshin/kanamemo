@@ -1,0 +1,11 @@
+{
+"name": "Test Collection",
+"description": "This is a test file for collection type file tests.",
+"sets":
+	[
+	["A","B","C"],
+	["D","E","F"],
+	["G","H","I"],
+	["J","K","L"]
+	]
+}

@@ -1,0 +1,8 @@
+Test Collection
+This is a test file for collection type file tests.
+%%TABLE: START%%
+A	B	C
+D	E	F
+G	H	I
+J	K	L
+%%TABLE: END%%
