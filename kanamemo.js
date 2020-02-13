@@ -731,7 +731,7 @@ class GridTheme {
 /**
  * The memo tile grid.
  * 
- * Paramteers added as properties:
+ * Parameters added as properties:
  * @property {number} rowCount - Number of rows.
  * @property {number} columnCount - Number of columns.
  * @property {GridTheme} theme - GridTheme object to determine the grid's appearance.
